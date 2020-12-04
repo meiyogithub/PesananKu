@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MenuCafe">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/tv_pesananKu"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:fontFamily="@font/audiowide"
+        android:text="MenuCafe"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:src="@drawable/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="232dp" />
+
+    <Button
+        android:id="@+id/btn_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:onClick="keMakanan"
+        android:text="Makanan"
+        app:backgroundTint="#3C3F41" />
+
+    <Button
+        android:id="@+id/btn_minuman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:onClick="keMinuman"
+        android:text="Minuman"
+        app:backgroundTint="#3C3F41" />
+
+    <Button
+        android:id="@+id/btn_dessert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="keDessert"
+        android:fontFamily="@font/audiowide"
+        android:text="Dessert"
+        app:backgroundTint="#3C3F41" />
+</LinearLayout>

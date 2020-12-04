@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:id="@+id/tv_pesananKu"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:fontFamily="@font/audiowide"
+        android:text="PesananKu"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:src="@drawable/logo2"
+        android:layout_height="232dp" />
+
+    <Button
+        android:id="@+id/btn_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:onClick="menuCafe"
+        android:text="Menu Cafe"
+        app:backgroundTint="#3C3F41" />
+
+    <Button
+        android:id="@+id/btn_minuman"
+        android:onClick="keOrderList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:text="Order List"
+        app:backgroundTint="#3C3F41" />
+</LinearLayout>
